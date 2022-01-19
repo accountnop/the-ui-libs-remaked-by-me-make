@@ -76,7 +76,7 @@ do
 end
  
  
---[[local Looks = { -- : TODO
+local Looks = { -- : TODO
     TextColor = Color3.new(1,1,1),
    
     Label = Color3.fromRGB(255,255,255),
@@ -92,7 +92,7 @@ end
     Tab = Color3.fromRGB(20, 20, 20),
     Category = Color3.fromRGB(25,25,25),
     ToggleCategory = Color3.fromRGB(28,28,28),
-}--]]
+}
  
 local ui = (script.Parent and script.Parent:FindFirstChild("ui")) or game:GetObjects("rbxassetid://4901175458")[1]
 if not ui then return end
@@ -161,7 +161,7 @@ local grey = Color3.fromRGB(30,30,30)
 local white = Color3.fromRGB(255,250,250)
 
 local function toggleanimation(button, state)
-    button.Text = state and "Enable" or "Disable"
+    button.Text = state and "On" or "Off"
     tween(button, {
         TextColor3 = state and green or red,
     }, .2)
