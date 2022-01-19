@@ -2,6 +2,7 @@
 	UI Lib by Herrtt,
 	
 	This is an actual mess at this point
+	Modify By Teres
 --]]
 
 local userinput = game:GetService("UserInputService")
@@ -91,7 +92,7 @@ local Looks = { -- : TODO
  
     Tab = Color3.fromRGB(20, 20, 20),
     Category = Color3.fromRGB(25,25,25),
-    ToggleCategory = Color3.fromRGB(28,28,28),
+    ToggleCategory = Color3.fromRGB(24,24,24),
 }
  
 local ui = (script.Parent and script.Parent:FindFirstChild("ui")) or game:GetObjects("rbxassetid://4901175458")[1]
